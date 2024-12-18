@@ -1,0 +1,150 @@
+/*
+	Theme Name: Fortun child
+	Theme URI: https://themeforest.net/item/fortun-multiconcept-wordpress-theme/19341019
+	Author: AgniDesigns	
+	Version: 1.0
+	Description: Multi-Concept WordPress theme
+	Author URI: http://themeforest.net/user/AgniHD	
+	Template: fortun
+*/
+@import url("./../fortun/style.css");
+@import url("./../fortun/css/responsive.css");
+
+.page-id-16 #column-5-1 .agni_text_column:first-child p:first-child,
+.page-id-16 #column-6-2 .agni_text_column:first-child p:first-child{
+    display: inline-block;
+}
+.page-id-16 #column-5-1 .agni_text_column:first-child p:first-child span,
+.page-id-16 #column-6-2 .agni_text_column:first-child p:first-child span{
+    font-size: 13px !important;
+}
+.page-id-16 #column-5-1 .agni_text_column:first-child p:first-child span:before,
+.page-id-16 #column-6-2 .agni_text_column:first-child p:first-child span:before {
+    display: block;
+    content: "";
+    width: 100%;
+    background-color: #fff;
+    height: 1px;
+    margin-top: 15px;
+}
+
+.page-id-16 #column-8-1 hr,
+.page-id-16 #column-9-2 hr{
+    margin-bottom: 12px !important;
+}
+
+.modern .entry-thumbnail{
+
+    height: 320px;
+    max-width: none;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page-id-16 #column-13-1 hr{
+    margin-top: 20px;
+}
+
+.page-id-16 #column-14-2 .agni-button,
+.page-id-16 #column-14-3 .agni-button{
+    text-align: center;
+}
+
+.page-id-493 #column-6-2{
+    margin-bottom: 15px !important;
+}
+
+.page-id-16 #column-12-1 .testimonial-quote-text{
+    max-height: 120px;
+	overflow: hidden;
+}
+
+.page-id-41 #column-4-1 .agni-image-figure img{
+	width: 100%;
+}
+.page-id-41 #column-4-1 .agni_column-inner{
+	margin-left: 0 !important;
+}
+
+/** Google recaptcha **/
+.grecaptcha-badge {
+    display: none !important;
+}
+
+@media (max-width: 600px) {
+    .page-id-16 #column-2-1 h1,
+    .page-id-16 #column-5-1 h1{
+        line-height: 0.8;
+    }
+	
+	.page-id-16 #column-5-2 .agni_column-inner{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+	.page-id-16 #column-6-1 .agni_column-inner{
+        margin-bottom: 15px !important;
+    }
+
+    .page-id-16 #column-5-1 .agni_column-inner{
+        margin-left: 0 !important;
+    }
+
+    .page-id-16 #column-6-1 .agni_column-inner{
+        width: auto;
+        margin-right: 15px !important;
+    }
+
+    .page-id-16 #column-5-2 .agni_column-inner{
+        margin-top: 15px !important;
+    }
+    .page-id-16 #column-5-2 .agni_column-inner{
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    .page-id-16 #column-10-1 .agni_column-inner,
+/*     .page-id-41 #column-4-1 .agni_column-inner, */
+    .page-id-16 #column-11-1 .agni_column-inner{
+        margin-left: 0 !important;
+    }
+	.page-id-41 #column-4-1 .agni-image-figure{
+        margin-bottom: 15px;
+    }
+    .page-id-41 #column-5-1 .agni-image-figure{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .page-id-41 #column-5-2 .agni-image-figure{
+        margin-bottom: 15px;
+    }
+	.page-id-41 #column-6-1 .agni-image-figure{
+        margin-bottom: 15px;
+	}
+    .page-id-41 #column-6-1 .agni_empty_space{
+        display: none;
+    }
+    
+    .page-id-16 #column-10-1 h2, .page-id-16 #column-10-1 h3, .page-id-16 #column-11-1 h3{
+        line-height: 1;
+    }
+
+    .page-id-16 #row-12{
+        margin-left: 0 !important;
+    }
+
+    .page-id-16 #column-13-1 h1{
+        line-height: 0.8;
+    }
+
+    .page-id-16 #row-14 .agni_column{
+        margin-bottom: 15px;
+    }
+
+    .page-id-41 #column-7-1 .agni_text_column hr{
+        margin-left: auto;
+        margin-right: auto;
+    }
+	
+	.page-id-16 #column-12-1 .testimonial-avatar{
+		position: absolute;
+	}
+}
