@@ -1270,7 +1270,70 @@
     .widget li {
         list-style: none;
         padding: 4px 0;
-    }</style>
+    }
+
+    /* For mobile devices */
+    @media (min-width: 200px) and (max-width: 450px) {
+        .header-icon img {
+            max-height: 28px;
+        }
+
+
+        .top-h1 {
+            width: 30rem !important;
+            font-size: 35px !important;
+            text-align: left;
+            margin-left: 0.5rem;
+            margin-bottom: 2rem !important;
+        }
+    }
+
+    /* For tablets */
+    @media (min-width: 451px) and (max-width: 1000px) {
+        .top-h1 {
+            width: 35rem !important;
+            font-size: 40px !important;
+            text-align: left;
+            margin-left: 1rem;
+            margin-bottom: 5rem !important;
+        }
+    }
+
+    /* For small laptops */
+    @media (min-width: 1001px) and (max-width: 1024px) {
+        .top-h1 {
+            width: 40rem !important;
+            font-size: 45px !important;
+            text-align: left;
+            margin-left: 6rem;
+            margin-bottom: 5rem !important;
+        }
+    }
+
+    /* For desktops and larger screens */
+    @media (min-width: 1025px) and (max-width: 1200px) {
+        .top-h1 {
+            width: 45rem !important;
+            font-size: 50px !important;
+            text-align: left;
+            /*margin-left: 2rem;*/
+            margin-bottom: 5rem !important;
+        }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1300px) {
+        .top-h1 {
+            width: 45rem !important;
+            font-size: 50px !important;
+            text-align: left;
+            margin-left: 1rem;
+            margin-bottom: 5rem !important;
+        }
+    }
+
+    /*=============================*/
+
+    </style>
     <link rel="stylesheet" id="agni-custom-font-css"
           href="../js_css/css/inc/agni-custom-fonts/css/custom.css?ver=6.5.5"
           type="text/css" media="all">
@@ -1675,7 +1738,7 @@
                                                                     <span class="vc_empty_space_inner"></span></div>
 
                                                                 <div id="" class="agni_text_column agni-text-block ">
-                                                                    <h1><span style="color: #002c4e;">Careers</span>
+                                                                    <h1 class="top-h1"><span style="color: #002c4e;">Careers</span>
                                                                     </h1>
                                                                     <hr align="left" size="3" width="100%">
 
