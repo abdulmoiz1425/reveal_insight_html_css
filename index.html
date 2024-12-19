@@ -971,11 +971,82 @@
             height: 60px;
         }
 
+        /*@media (max-width: 450px) {*/
+        /*    .header-icon img {*/
+        /*        max-height: 28px;*/
+        /*    }*/
+
+        /*    .top-h1 h1 {*/
+        /*        width: 30rem !important;*/
+        /*        font-size: 35px;*/
+        /*        text-align: left;*/
+        /*    }*/
+
+        /*}*/
+
+        /*=============================*/
+
+        /* For mobile devices */
+        @media (min-width: 200px) and (max-width: 450px) {
+            .header-icon img {
+                max-height: 28px;
+            }
+
+
+            .top-h1 h1 {
+                width: 30rem !important;
+                font-size: 35px !important;
+                text-align: left;
+                margin-left: 0.5rem;
+            }
+        }
+
+        /* For tablets */
+        @media (min-width: 451px) and (max-width: 1000px) {
+            .top-h1 h1 {
+                width: 35rem !important;
+                font-size: 40px !important;
+                text-align: left;
+                margin-left: 1rem;
+            }
+        }
+
+        /* For small laptops */
+        @media (min-width: 1001px) and (max-width: 1024px) {
+            .top-h1 h1 {
+                width: 40rem !important;
+                font-size: 45px !important;
+                text-align: left;
+                margin-left: 6rem;
+            }
+        }
+
+        /* For desktops and larger screens */
+        @media (min-width: 1025px) and (max-width: 1200px) {
+            .top-h1 h1 {
+                width: 45rem !important;
+                font-size: 50px !important;
+                text-align: left;
+                margin-left: 6rem;
+            }
+        }
+         @media (min-width: 1201px) and (max-width: 1300px) {
+            .top-h1 h1 {
+                width: 45rem !important;
+                font-size: 50px !important;
+                text-align: left;
+                margin-left: 1rem;
+            }
+        }
+
+        /*=============================*/
+
         @media (max-width: 767px) {
             .header-icon img {
                 max-height: 28px;
             }
         }
+
 
         .nav-menu {
             line-height: 106px;
@@ -2485,16 +2556,11 @@
                                         id="post-16"
                                         class="post-16 page type-page status-publish hentry"
                                 >
-                                    <div
-
-                                            style="margin-right: 32.5rem;"
-
+                                    <div class="top-h1 " style="margin-right: 32.5rem;"><h1><span
+                                            style=" color: #002c4e;margin-right: 7rem;"
+                                    >Our currency is ratings.</span
                                     >
-                                        <h1>
-                          <span style=" color: #002c4e;margin-right: 7rem;"
-                          >Our currency is ratings.</span
-                          >
-                                        </h1>
+                                    </h1>
                                         <h1>
                           <span style=" color: #002c4e;"
                           ><strong>The more you participate,</strong></span
